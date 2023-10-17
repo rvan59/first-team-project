@@ -7,6 +7,112 @@
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #EDF3F8;
+    height: 48px;
+}
+
+header .payapi nav ul  {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+header .payapi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule {
+    background-color: #BA4270;
+    padding: 10px;
+    font-size: 15px;
+    border-color: #BA4270;
+    border-radius: 20px;
+}
+#demo {
+    background-color: #EDF3F8;
+}
+#demo .container {
+    display:flex;
+    justify-content: space-around;
+}
+.free {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    flex: wrap;
+}
+.mail-form {
+    position: relative;
+    max-width: 300px;
+}
+.mail-form input {
+    width: 70%;
+    position: absolute;
+    left: 0;
+    border: none;
+}
+
+.mail-form button {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    border: none;
+}
+.free h1 {
+    font-size: 72px;
+}
+input {
+    padding: 10px;
+    border-radius: 20px;
+}
+button {
+    background-color: #BA4270;
+    padding: 10px;
+    font-size: 15px;
+    border-color: #BA4270;
+    border-radius: 20px;
+}
+.container .photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class {
+    position: relative;
+    right: 57%;
+    bottom: 10%;
+}
+
+p {
+    row-gap
+}.fa-beat  {
+    display: none;
+}
+@media  (max-width: 1023px) {
+    .free {
+        flex-wrap: wrap;
+    }
+    .photo 
+    {
+        display: flex;
+        align-items: start;
+        order: -1;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .fa-beat {
+        display: block;
+    }
 }

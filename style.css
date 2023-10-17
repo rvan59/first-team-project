@@ -1,12 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#esas {
+  background-color: #1b262f;
+}
+.esas {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+p {
+  margin: 20px 0;
+  max-width: 445px;
+}
+.sag {
+
+  column-gap: 10px;
+  width: 50%;
+  height: 50%;
+}
+.yazi {
+  color: aliceblue;
+  background-color: #1b262f;
+  column-gap: px;
+}
+button {
+  font-weight: 700;
+  color:aliceblue;
+  background-color:  #1b262f;
+  width: 70px;
+  height: 30px;
+  border-radius: 30px;
+ border-color: aliceblue;
+}
+.sol .logo img{
+  width: 30%;
+
+}
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 1023px){
+
+  .esas {
+    display: inline;
+  }
+  .sag{
+    text-align: center;
+    }
+}
+@media only screen and (max-width: 767px){
+ 
+ .logo{
+  flex-direction: column;
+ gap: 20px;
+ }
+  .esas {
+
+    display: inline;
+
+  }
+
 }
